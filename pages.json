@@ -1,0 +1,39 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "easyLifes-简单生活",
+				"backgroundColor":"#2C405A"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root":"packageFoodMenu",
+			"pages":[
+				{
+					"path":"pages/foodsMenu/foodsMenu",
+					"name":"foodsMenu",
+					"style":{
+						"navigationBarTitleText": "easyLifes-菜单列表",
+						"backgroundColor":"#2C405A"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f7f7f7",
+		"backgroundColor": "#f7f7f7",
+		"usingComponents":{
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-grid": "/wxcomponents/vant/grid/index",
+			"van-grid-item": "/wxcomponents/vant/grid-item/index",
+			"van-toast": "/wxcomponents/vant/toast/index",
+			"van-search": "/wxcomponents/vant/search/index"
+		}
+	}
+}

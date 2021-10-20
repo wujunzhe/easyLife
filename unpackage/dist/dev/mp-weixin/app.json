@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packageFoodMenu",
+      "pages": [
+        "pages/foodsMenu/foodsMenu"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#f7f7f7",
+    "backgroundColor": "#f7f7f7"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置信息用户获取天气信息"
+    }
+  },
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/icon/index",
+    "van-grid": "/wxcomponents/vant/grid/index",
+    "van-grid-item": "/wxcomponents/vant/grid-item/index",
+    "van-toast": "/wxcomponents/vant/toast/index",
+    "van-search": "/wxcomponents/vant/search/index"
+  }
+}
