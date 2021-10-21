@@ -14,8 +14,6 @@
 
 <style>
 	/*每个页面公共css */
-	@import "/wxcomponents/vant/common/index.wxss"
-	/deep/ .van-grid-item__content {
-		background-color: rgba(123,117,83,.5);
-	}
+	@import "/wxcomponents/vant/common/index.wxss";
+	@import url("/static/iconfont/iconfont.css");
 </style>

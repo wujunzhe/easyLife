@@ -1,7 +1,7 @@
 import App from './App'
 import $http from 'utils/http.js'
-import global from 'config/global.js'
-import storage from 'utils/setStorage.js'
+import global from 'config/global.js';
+import storage from 'utils/setStorage.js';
 import {Toast} from 'wxcomponents/vant/toast/toast.js';
 
 // #ifndef VUE3
