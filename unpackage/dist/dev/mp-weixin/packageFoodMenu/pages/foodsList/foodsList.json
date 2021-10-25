@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "backgroundColor": "#2C405A",
+  "usingComponents": {
+    "card-list": "/packageFoodMenu/components/cardList"
+  }
+}

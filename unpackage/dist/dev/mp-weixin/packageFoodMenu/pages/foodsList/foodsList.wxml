@@ -1,0 +1,1 @@
+<view class="foods-list"><view class="content"><block wx:if="{{loading}}"><card-list vue-id="5b09c264-1" listData="{{menuListData.data}}" classid="{{classid}}" isBottom="{{isBottom}}" data-event-opts="{{[['^noDataInfo',[['noData']]]]}}" bind:noDataInfo="__e" bind:__l="__l"></card-list></block><block wx:if="{{showNoData}}"><view class="noData">已经到底了...</view></block></view></view>

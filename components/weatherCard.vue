@@ -91,35 +91,35 @@
 			};
 		},
 		created() {
-			// this.init()
+			this.init()
 		},
 		methods: {
-			// async init() {
-			// 	this.dateInfo = getDateInfo();
-			// 	const {
-			// 		ad_info: addInfo
-			// 	} = this.locationData;
-			// 	const {
-			// 		location
-			// 	} = addInfo
-			// 	const {
-			// 		data: res
-			// 	} = await this.$http(
-			// 		getWeatherV2,
-			// 		'GET', {
-			// 			apiKey: this.$apiKey.apishopKey,
-			// 			from: '1',
-			// 			lat: location.lat,
-			// 			lng: location.lng,
-			// 			needAlarm: 1,
-			// 			needIndex: 1
-			// 		})
-			// 	if (res.statusCode === "000000") {
-			// 		this.weatherNow = res.result.now;
-			// 		this.weatherF1 = res.result.f1;
-			// 		this.weatherF2 = res.result.f2;
-			// 	}
-			// }
+			async init() {
+				this.dateInfo = getDateInfo();
+				const {
+					ad_info: addInfo
+				} = this.locationData;
+				const {
+					location
+				} = addInfo
+				const {
+					data: res
+				} = await this.$http(
+					getWeatherV2,
+					'GET', {
+						apiKey: this.$apiKey.apishopKey,
+						from: '1',
+						lat: location.lat,
+						lng: location.lng,
+						needAlarm: 1,
+						needIndex: 1
+					})
+				if (res.statusCode === "000000") {
+					this.weatherNow = res.result.now;
+					this.weatherF1 = res.result.f1;
+					this.weatherF2 = res.result.f2;
+				}
+			}
 		}
 	}
 </script>

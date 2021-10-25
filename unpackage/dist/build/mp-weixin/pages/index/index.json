@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "easyLifes-简单生活",
+  "backgroundColor": "#2C405A",
+  "usingComponents": {
+    "clock": "/components/clock",
+    "weather-card": "/components/weatherCard",
+    "grid-box": "/components/gridBox"
+  }
+}

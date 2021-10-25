@@ -1,0 +1,15 @@
+.list-grid.data-v-22088b1a {
+  margin-top: 25px;
+}
+.list-grid .list-grid-item .name.data-v-22088b1a {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+

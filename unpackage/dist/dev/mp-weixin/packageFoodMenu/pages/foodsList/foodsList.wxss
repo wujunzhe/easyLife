@@ -1,0 +1,14 @@
+.foods-list {
+  width: 100vw;
+  height: 100vh;
+}
+.foods-list .content {
+  width: 100%;
+}
+.foods-list .noData {
+  margin-top: 10px;
+  text-align: center;
+  color: #808080;
+  font-style: italic;
+}
+

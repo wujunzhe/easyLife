@@ -1,0 +1,104 @@
+.foods-info.data-v-12eac1fc {
+  width: 100vw;
+}
+.foods-info .foods-img.data-v-12eac1fc {
+  width: 100%;
+  height: 200px;
+}
+.foods-info .foods-img image.data-v-12eac1fc {
+  width: 100%;
+  height: 100%;
+  image-rendering: -moz-crisp-edges;
+  /* Firefox */
+  image-rendering: -o-crisp-edges;
+  /* Opera */
+  image-rendering: -webkit-optimize-contrast;
+  /*Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE (non-standard property) */
+}
+.foods-info .main.data-v-12eac1fc {
+  padding: 0 10px;
+}
+.foods-info .main .foods-name.data-v-12eac1fc {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: #45526C;
+}
+.foods-info .main .foods-tags.data-v-12eac1fc .van-tag {
+  margin: 0 1px;
+}
+.foods-info .main .foods-desc.data-v-12eac1fc {
+  font-size: 14px;
+  color: #808080;
+  letter-spacing: 1px;
+}
+.foods-info .main .foods-other-info.data-v-12eac1fc {
+  width: 100%;
+  margin-top: 30px;
+}
+.foods-info .main .foods-other-info .info.data-v-12eac1fc {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.foods-info .main .foods-other-info .info .title.data-v-12eac1fc {
+  font-weight: 600;
+  color: #555555;
+}
+.foods-info .main .foods-other-info .info .content.data-v-12eac1fc {
+  margin-left: 15px;
+  color: #3F536E;
+}
+.foods-info .main .foods-use .title.data-v-12eac1fc {
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 600;
+  color: #555555;
+  margin-top: 20px;
+}
+.foods-info .main .foods-use .content.data-v-12eac1fc {
+  margin-top: 15px;
+}
+.foods-info .main .foods-process.data-v-12eac1fc {
+  margin-bottom: 80px;
+}
+.foods-info .main .foods-process .title.data-v-12eac1fc {
+  width: 100px;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 600;
+  color: #555555;
+  margin-top: 20px;
+}
+.foods-info .main .foods-process .process.data-v-12eac1fc {
+  font-size: 14px;
+  color: #3F536E;
+  margin-top: 10px;
+}
+.foods-info .main .foods-process .process .img.data-v-12eac1fc {
+  margin: 15px 0;
+  width: 100%;
+  height: 200px;
+}
+.foods-info .main .foods-process .process .img image.data-v-12eac1fc {
+  width: 100%;
+  height: 100%;
+  image-rendering: -moz-crisp-edges;
+  /* Firefox */
+  image-rendering: -o-crisp-edges;
+  /* Opera */
+  image-rendering: -webkit-optimize-contrast;
+  /*Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE (non-standard property) */
+}
+

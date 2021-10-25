@@ -19,8 +19,40 @@
 						"navigationBarTitleText": "easyLifes-菜单列表",
 						"backgroundColor":"#2C405A"
 					}
+				},
+				{
+					"path": "pages/foodsInfo/foodsInfo",
+					"name": "foodsInfo",
+					"style": {
+						"navigationBarTitleText":"详情",
+						"backgroundColor":"#2C405A"
+					}
+				},
+				{
+					"path": "pages/foodsList/foodsList",
+					"name": "foodsList",
+					"style": {
+						"navigationBarTitleText":"搜索结果",
+						"backgroundColor":"#2C405A"
+					}
+				},
+				{
+					"path": "pages/typesList/typeList",
+					"name": "typeList",
+					"style": {
+						"navigationBarTitleText":"分类菜谱",
+						"backgroundColor":"#2C405A"
+					}
+				},
+				{
+					"path": "pages/tabsList/tabsList",
+					"name": "tabsList",
+					"style": {
+						"navigationBarTitleText":"分类",
+						"backgroundColor":"#2C405A"
+					}
 				}
-			]
+            ]
 		}
 	],
 	"globalStyle": {
@@ -36,8 +68,14 @@
 			"van-search": "/wxcomponents/vant/search/index",
 			"van-tab": "/wxcomponents/vant/tab/index",
 			"van-tabs": "/wxcomponents/vant/tabs/index",
-			"van-skeleton": "/wxcomponents/vant/skeleton/index",
-			"van-tag": "/wxcomponents/vant/tag/index"
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-notify": "/wxcomponents/vant/notify/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-divider": "/wxcomponents/vant/divider/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-card":"/wxcomponents/vant/card/index"
+			 
 		}
 	}
 }

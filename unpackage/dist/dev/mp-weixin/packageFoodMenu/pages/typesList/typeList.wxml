@@ -1,0 +1,1 @@
+<block wx:if="{{!isLoading}}"><view class="type-list"><block wx:for="{{typeList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="classid"><view data-event-opts="{{[['tap',[['getInfo',['$0'],[[['typeList','classid',item.classid,'classid']]]]]]]}}" class="type-item" bindtap="__e">{{item.name}}</view></block></view></block>

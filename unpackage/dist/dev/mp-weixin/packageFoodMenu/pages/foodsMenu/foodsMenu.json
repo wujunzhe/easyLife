@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "easyLifes-菜单列表",
+  "backgroundColor": "#2C405A",
+  "usingComponents": {
+    "list-grid": "/packageFoodMenu/components/listGrid"
+  }
+}

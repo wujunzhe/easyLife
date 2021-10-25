@@ -1,0 +1,28 @@
+.tabs-list.data-v-3d71b73a {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  grid-auto-flow: row dense;
+  grid-auto-rows: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.tabs-list .tabs-item.data-v-3d71b73a {
+  background-image: linear-gradient(120deg, rgba(11, 165, 207, 0.6) 0%, rgba(210, 105, 30, 0.5) 100%);
+  width: 100%;
+  color: #5959AB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-list .tabs-item.data-v-3d71b73a:nth-of-type(3n+1) {
+  grid-row: auto / span 5;
+}
+.tabs-list .tabs-item.data-v-3d71b73a:nth-of-type(3n+2) {
+  grid-row: auto / span 6;
+}
+.tabs-list .tabs-item.data-v-3d71b73a:nth-of-type(3n+3) {
+  grid-row: auto / span 8;
+}
+

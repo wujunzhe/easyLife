@@ -1,0 +1,1 @@
+.grid-box{width:90vw;height:370rpx;margin:0 auto}.grid-box .main{border:1px solid #c1cdc1;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);border-radius:10px}.grid-box .main .item{background-image:linear-gradient(120deg,rgba(11,165,207,.6),rgba(210,105,30,.5))}

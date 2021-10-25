@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/gridBox"],{"41d6":function(e,n,t){"use strict";t.r(n);var a=t("441d"),u=t("9249");for(var r in u)"default"!==r&&function(e){t.d(n,e,(function(){return u[e]}))}(r);t("99c6");var i,o=t("f0c5"),l=Object(o["a"])(u["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],i);n["default"]=l.exports},"441d":function(e,n,t){"use strict";var a;t.d(n,"b",(function(){return u})),t.d(n,"c",(function(){return r})),t.d(n,"a",(function(){return a}));var u=function(){var e=this,n=e.$createElement;e._self._c},r=[]},"492c":function(e,n,t){"use strict";(function(e){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a=u(t("c6d5"));function u(e){return e&&e.__esModule?e:{default:e}}var r={name:"gridBox",data:function(){return{gridData:[{icon:"fire",linkType:"navigateTo",url:"/packageFoodMenu/pages/foodsMenu/foodsMenu",text:"每日食谱",useAble:!0},{icon:"replay",linkType:"navigateTo",url:"/pages/dashboard/index",text:"功能待开发",useAble:!1},{icon:"replay",linkType:"navigateTo",url:"/pages/dashboard/index",text:"功能待开发",useAble:!1},{icon:"replay",linkType:"navigateTo",url:"/pages/dashboard/index",text:"功能待开发",useAble:!1}]}},methods:{gridClick:function(n){n.useAble?e.navigateTo({url:n.url,fail:function(e){a.default.fail(e.errMsg)}}):a.default.fail("该功能未开通")}}};n.default=r}).call(this,t("543d")["default"])},"6ac4":function(e,n,t){},9249:function(e,n,t){"use strict";t.r(n);var a=t("492c"),u=t.n(a);for(var r in a)"default"!==r&&function(e){t.d(n,e,(function(){return a[e]}))}(r);n["default"]=u.a},"99c6":function(e,n,t){"use strict";var a=t("6ac4"),u=t.n(a);u.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/gridBox-create-component',
+    {
+        'components/gridBox-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("41d6"))
+        })
+    },
+    [['components/gridBox-create-component']]
+]);
